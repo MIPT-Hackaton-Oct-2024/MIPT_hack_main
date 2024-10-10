@@ -1,0 +1,9 @@
+[submodule "MIPT_hack_backend"]
+	path = MIPT_hack_backend
+	url = https://github.com/AntonLED/MIPT_hack_backend.git
+[submodule "MIPT_hack_frontend"]
+	path = MIPT_hack_frontend
+	url = https://github.com/AntonLED/MIPT_hack_frontend.git
+[submodule "MIPT_hack_ML"]
+	path = MIPT_hack_ML
+	url = https://github.com/AntonLED/MIPT_hack_ML.git
