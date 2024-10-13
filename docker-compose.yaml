@@ -12,3 +12,9 @@ services:
     container_name: mipt-hack-frontend
     ports:
       - 3000:3000
+
+  ml_engine:
+    build: ./MIPT_hack_ML
+    container_name: mipt-hack-ml_engine
+    ports:
+      - 4000:4000
