@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  backend:
+    build: ./MIPT_hack_backend
+    container_name: mipt-hack-backend
+    ports:
+      - 5000:5000
