@@ -6,3 +6,9 @@ services:
     container_name: mipt-hack-backend
     ports:
       - 5000:5000
+
+  frontend:
+    build: ./MIPT_hack_frontend
+    container_name: mipt-hack-frontend
+    ports:
+      - 3000:3000
