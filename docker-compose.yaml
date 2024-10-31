@@ -4,17 +4,45 @@ services:
   backend:
     build: ./MIPT_hack_backend
     container_name: mipt-hack-backend
+    # volumes:
+    #   - app-volume:/code/uploads
+    # networks:
+    #   - appnet
     ports:
       - 5000:5000
 
   frontend:
     build: ./MIPT_hack_frontend
     container_name: mipt-hack-frontend
+    # volumes:
+    #   - app-volume:/react-app/public/uploads
+    # environment:
+    #   - WATCH_PATHS=react-app/src/
+    #   - CHOKIDAR_USEPOLLING=false
+    #   - CHOKIDAR_INTERVAL=1000 
+    # networks:
+    #   - appnet
     ports:
       - 3000:3000
 
   ml_engine:
-    build: ./MIPT_hack_ML
+    build: 
+      context: ./MIPT_hack_ML
+      shm_size: '2.35gb'
     container_name: mipt-hack-ml_engine
+    shm_size: '2.35gb'
+
+    # volumes:
+    #   - app-volume:/code/uploads
+    # networks:
+    #   - appnet
     ports:
       - 4000:4000
+
+# networks:
+#   appnet:
+#     name: appnet
+#     driver: bridge
+
+volumes:
+  app-volume:
