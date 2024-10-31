@@ -8,7 +8,7 @@ Roadmap: https://clck.ru/3Duryh
 
 Описание работы алгоритма: ./MIPT_hack_ML/recearch/Daniil/businessRulesLotting.ipynb
 
-Макет сайта: ...
+Макет сайта: https://disk.yandex.ru/i/Ot_U3cv_KxfNmg
 
 ## Инструкция по запуску
 
