@@ -28,9 +28,9 @@ services:
   ml_engine:
     build: 
       context: ./MIPT_hack_ML
-      shm_size: '2.35gb'
+      shm_size: '5.00gb'
     container_name: mipt-hack-ml_engine
-    shm_size: '2.35gb'
+    shm_size: '5.00gb'
 
     # volumes:
     #   - app-volume:/code/uploads
