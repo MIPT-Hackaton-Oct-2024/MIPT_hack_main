@@ -10,6 +10,8 @@ Roadmap: https://clck.ru/3Duryh
 
 Макет сайта: https://disk.yandex.ru/i/Ot_U3cv_KxfNmg
 
+Презентация: https://docs.google.com/presentation/d/1fHC_q8tMkEK-UjYIw592WAVsUUydvhcC/edit?usp=sharing&ouid=101769689797637585517&rtpof=true&sd=true
+
 ## Инструкция по запуску
 
 Скачивать через git clone --recurse-submodules https://github.com/MIPT-Hackaton-Oct-2024/MIPT_hack_main.git
