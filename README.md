@@ -16,7 +16,7 @@ Roadmap: https://clck.ru/3Duryh
 
 Скачивать через git clone --recurse-submodules https://github.com/MIPT-Hackaton-Oct-2024/MIPT_hack_main.git
 
-Запускать через docker compose up
+Запускать через docker compose up --build
 
 Веб-сервис открывается по адресу http://localhost:3000/
 
